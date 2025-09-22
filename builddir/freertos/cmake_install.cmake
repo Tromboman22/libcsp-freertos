@@ -5,7 +5,7 @@ if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/libcsp-freertos")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
-
+  
 # Set the install configuration name.
 if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
   if(BUILD_TYPE)
