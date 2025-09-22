@@ -1,0 +1,209 @@
+Build started at 2025-08-30T15:30:34.185408
+Main binary: C:/msys64/ucrt64/bin/python.exe
+Build Options: 
+Python system: Windows
+The Meson build system
+Version: 1.9.0
+Source dir: C:/libcsp-freertos
+Build dir: C:/libcsp-freertos/builddir
+Build type: native build
+Project name: libcsp-freertos
+Project version: undefined
+-----------
+Detecting compiler via: `icl ""` -> [WinError 2] The system cannot find the file specified
+-----------
+Detecting compiler via: `cl /?` -> [WinError 2] The system cannot find the file specified
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Rev3, Built by MSYS2 project) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.41
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 13.2.0
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\samue\AppData\Local\Temp\ccW38pSw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --version -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  C:/libcsp-freertos/builddir/meson-private/sanitycheckc.exe
+-----------
+Sanity check: `C:/libcsp-freertos/builddir/meson-private/sanitycheckc.exe` -> 0
+C compiler for the host machine: cc (gcc 13.2.0 "cc (Rev3, Built by MSYS2 project) 13.2.0")
+C linker for the host machine: cc ld.bfd 2.41
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.41
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `icl ""` -> [WinError 2] The system cannot find the file specified
+-----------
+Detecting compiler via: `cl /?` -> [WinError 2] The system cannot find the file specified
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Rev3, Built by MSYS2 project) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.41
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 13.2.0
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\samue\AppData\Local\Temp\cc7KFBPc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --version -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  C:/libcsp-freertos/builddir/meson-private/sanitycheckc.exe
+-----------
+Sanity check: `C:/libcsp-freertos/builddir/meson-private/sanitycheckc.exe` -> 0
+C compiler for the build machine: cc (gcc 13.2.0 "cc (Rev3, Built by MSYS2 project) 13.2.0")
+C linker for the build machine: cc ld.bfd 2.41
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.41
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+
+Executing subproject libcsp 
+
+Project name: csp
+Project version: 2.1
+C compiler for the host machine: cc (gcc 13.2.0 "cc (Rev3, Built by MSYS2 project) 13.2.0")
+C linker for the host machine: cc ld.bfd 2.41
+C compiler for the build machine: cc (gcc 13.2.0 "cc (Rev3, Built by MSYS2 project) 13.2.0")
+C linker for the build machine: cc ld.bfd 2.41
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (C:\msys64\ucrt64\bin/pkg-config.EXE) 2.1.0
+Determining dependency 'yaml-0.1' with pkg-config executable 'C:\\msys64\\ucrt64\\bin/pkg-config.EXE'
+env[PKG_CONFIG_PATH]: C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: C:/Program Files/Git/mingw64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: C:/Program Files/Git/mingw64/lib
+env[PKG_CONFIG]: C:\msys64\ucrt64\bin/pkg-config.EXE
+-----------
+Called: `C:\msys64\ucrt64\bin/pkg-config.EXE --modversion yaml-0.1` -> 1
+stderr:
+Package yaml-0.1 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `yaml-0.1.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'yaml-0.1', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Found CMake: C:\Program Files\CMake\bin/cmake.EXE (4.1.1)
+Extracting basic cmake information
+CMake Toolchain: Calling CMake once to generate the compiler state
+Calling CMake (['C:\\Program Files\\CMake\\bin/cmake.EXE']) in C:/libcsp-freertos/builddir/meson-private/__CMake_compiler_info__ with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_TOOLCHAIN_FILE=C:/libcsp-freertos/builddir/meson-private/__CMake_compiler_info__/CMakeMesonTempToolchainFile.cmake"
+  - "."
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: C:/libcsp-freertos/builddir/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-qs1kvx/CMakeLists.txt:22 add_executable(['cmTC_11d7b'])
+CMake trace warning: target_link_libraries() TARGET cmTC_11d7b not found
+CMake TRACE: C:/libcsp-freertos/builddir/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-qs1kvx/CMakeLists.txt:28 target_link_libraries(['cmTC_11d7b', ''])
+Try CMake generator: auto
+Calling CMake (['C:\\Program Files\\CMake\\bin/cmake.EXE']) in C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1 with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1/CMakeMesonToolchainFile.cmake"
+  - "."
+  -- Module search paths:    ['C:/Program Files', 'C:/Program Files (x86)', 'C:/Program Files/CMake', 'C:/Program Files/Git/mingw64']
+  -- CMake root:             C:/Program Files/CMake/share/cmake-4.1
+  -- CMake architectures:    []
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', '']
+Preliminary CMake check failed. Aborting.
+Run-time dependency yaml-0.1 found: NO (tried pkgconfig and cmake)
+Neither a subproject directory nor a yaml.wrap file was found.
+Cmake subproject yaml is buildable: NO (disabling)
+Running compile:
+Working directory:  C:/libcsp-freertos/builddir/meson-private/tmpv7q4hjjz
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc C:/libcsp-freertos/builddir/meson-private/tmpv7q4hjjz/testfile.c -o C:/libcsp-freertos/builddir/meson-private/tmpv7q4hjjz/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lc -Wl,--allow-shlib-undefined` -> 1
+stderr:
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lc: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+-----------
+Library c found: NO
+Determining dependency 'libc' with pkg-config executable 'C:\\msys64\\ucrt64\\bin/pkg-config.EXE'
+env[PKG_CONFIG_PATH]: C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+env[PKG_CONFIG_SYSTEM_INCLUDE_PATH]: C:/Program Files/Git/mingw64/include
+env[PKG_CONFIG_SYSTEM_LIBRARY_PATH]: C:/Program Files/Git/mingw64/lib
+env[PKG_CONFIG]: C:\msys64\ucrt64\bin/pkg-config.EXE
+-----------
+Called: `C:\msys64\ucrt64\bin/pkg-config.EXE --modversion libc` -> 1
+stderr:
+Package libc was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libc.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libc', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency libc found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency libc
+ERROR: Subproject picolibc is buildable: NO
+
+subprojects/libcsp/meson.build:58:8: ERROR: Neither a subproject directory nor a picolibc.wrap file was found.

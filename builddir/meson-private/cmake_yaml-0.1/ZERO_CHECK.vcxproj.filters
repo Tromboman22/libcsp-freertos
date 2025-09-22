@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\libcsp-freertos\builddir\meson-private\cmake_yaml-0.1\CMakeFiles\3b56ab36ade8b7b53f37246dd7313800\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0F1A3A47-8DB6-311A-8A48-A08E44DB0F40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

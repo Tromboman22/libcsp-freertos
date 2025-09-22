@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeRCCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystem.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/GNU-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/GNU.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake
+C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1/CMakeFiles/4.1.1/CMakeCCompiler.cmake
+C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1/CMakeFiles/4.1.1/CMakeRCCompiler.cmake
+C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1/CMakeFiles/4.1.1/CMakeSystem.cmake
+C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1/CMakeLists.txt
+C:/libcsp-freertos/builddir/meson-private/cmake_yaml-0.1/CMakeMesonToolchainFile.cmake

@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/libcsp-freertos/builddir/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/freertos/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/freertos/include/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/freertos/portable/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/src/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/src/arch/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/src/crypto/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/src/drivers/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/src/interfaces/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/unittests/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/examples/cmake_install.cmake",
+		"C:/libcsp-freertos/builddir/subprojects/libcsp/samples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
